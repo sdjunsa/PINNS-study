@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 
-# 1. 신경망 정의
+# 1. 신경망
 class PhysicsInformedNN(nn.Module):
     def __init__(self, input_dim, output_dim, num_layers, hidden_neurons):
         super(PhysicsInformedNN, self).__init__()
